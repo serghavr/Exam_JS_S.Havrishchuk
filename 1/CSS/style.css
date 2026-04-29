@@ -1,0 +1,59 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    height: 100vh;
+    background-color: #5c89b8;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.DivForm {
+    padding: 20px;
+    display : flex;
+    flex-direction: column;
+    width: 70%;
+    max-width: 800px;
+    height: auto;
+    min-height: 500px;
+    background-color: white;
+    border-radius: 10px;
+}
+.DivForm h3{
+    padding : 20px 0;
+}
+.inputDiv{
+    display: flex;
+    gap: 30px;
+    padding-bottom: 30px;
+}
+.inputDiv input{
+    width: 60%;
+}
+.ulListDiv{
+    height: 100%;
+    width: 100%;
+}
+ul{
+    list-style-type: none;
+    width: 60%;
+
+    height: 300px;
+    border-radius: 3px;
+    border: 1px solid black;
+    overflow: auto;
+}
+.listDiv {
+    display: flex;
+    gap: 30px;
+}
+.btnDiv{
+    display: flex;
+    flex-direction:column;
+    gap: 10px;
+}
+.btnDiv button:nth-child(3){
+    margin-top:10px
+}
