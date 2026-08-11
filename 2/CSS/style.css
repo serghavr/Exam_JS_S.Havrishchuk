@@ -1,0 +1,92 @@
+
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
+    background-color: #c7dbe3;
+    color: #333;
+}
+
+#usersContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.user-card {
+    width: calc(50% - 10px);
+    box-sizing: border-box;
+    background-color: #ffffff;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.05);
+}
+
+.user-card button {
+    margin-top: 15px;
+    padding: 8px 16px;
+}
+
+#userContainer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+.posts-btn {
+    display: block;
+    width: 90%;
+    margin: 20px auto;
+    padding: 12px;
+    font-size: 16px;
+    font-weight: bold;
+}
+
+#postsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+}
+
+.post-card {
+    width: calc(20% - 8px);
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #ccc;
+    border-radius: 6px;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+#postContainer {
+    background: #fff;
+    padding: 20px;
+    border-radius: 8px;
+    border: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+
+#commentsContainer {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 15px;
+}
+
+.comment-card {
+    width: calc(25% - 12px);
+    box-sizing: border-box;
+    background: #fff;
+    border: 1px solid #bbb;
+    border-radius: 6px;
+    padding: 12px;
+    box-shadow: 0 1px 3px rgba(0,0,0,0.1);
+}
